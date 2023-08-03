@@ -61,7 +61,7 @@ function Navbar() {
                 <a href="#skills" onClick={closeMobileMenu}>{t("Service")}</a>
                 <a href="#portfolio" onClick={closeMobileMenu}>{t("Portfolio")}</a>
                 <a href="#contact" onClick={closeMobileMenu}>{t("Contact")}</a>
-                <a href="#" onClick={closeMobileMenu}>{t("Footer")}</a>
+                <a href="#footer" onClick={closeMobileMenu}>{t("Footer")}</a>
                 <select onChange={changeLanguage}>
                     {lang.map((lan) => (
                         <option key={lan.id} value={lan.label}>
