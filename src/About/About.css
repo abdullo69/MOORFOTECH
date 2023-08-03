@@ -96,3 +96,15 @@
     }
 
 }
+
+@media(max-width:500px) {
+    .section-title {
+        position: relative;
+        color: #134679;
+        font-size: 38px;
+        font-weight: 800;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+}
